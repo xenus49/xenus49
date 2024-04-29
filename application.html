@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Application Submission</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Application Submission</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="application.html">Apply</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="apply">
+    <h2>Apply for Our Sustainable Wedding</h2>
+    <p>We're delighted that you're interested in attending our sustainable wedding! Please fill out the form below to submit your application.</p>
+    <form action="submit_application.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Submit Application</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you have any questions or need further assistance, feel free to contact us at <a href="mailto:greenbliss@gmail.com">greenbliss@gmail.com</a> or <a href="tel:+60385439969">03-8543 9969</a>.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Sustainable Wedding. All rights reserved.</p>
+  </footer>
+</body>
+</html>
